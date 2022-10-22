@@ -5,8 +5,8 @@ var User = require('../models/user');
 var db = mongoose.connection;
   
 passport.use(new GoogleStrategy({
-    clientID:"38285515640-p1o05lrb5jk4970b5q9j1hdriccsv4ga.apps.googleusercontent.com", // Your Credentials here.
-    clientSecret:"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", // Your Credentials here.
+    clientID:"YOUR-GOOGLE-ID-API", // Your Credentials here.
+    clientSecret:"YOUR-SECRET", // Your Credentials here.
     callbackURL:"http://localhost:3000/google/callback",
     passReqToCallback:true
   },
@@ -17,8 +17,8 @@ passport.use(new GoogleStrategy({
  
 passport.use(new FacebookStrategy(
   {
-    clientID : "1133022640672716",
-    clientSecret : "3c43db76a5dd5412530336deff006bc6",
+    clientID : "YOUR-FACEBOOK-ID-API",
+    clientSecret : "YOUR-FACEBOOK-ID-API",
     callbackURL : "http://localhost:3000/facebook/callback",
     profileFields: ['id', 'emails', 'link', 'locale', 'name',
     'timezone', 'updated_time', 'verified', 'displayName']
