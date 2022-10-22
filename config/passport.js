@@ -2,9 +2,7 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth2').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
 var User = require('../models/user');
-var mongoose = require('mongoose');
 var db = mongoose.connection;
-
   
 passport.use(new GoogleStrategy({
     clientID:"38285515640-p1o05lrb5jk4970b5q9j1hdriccsv4ga.apps.googleusercontent.com", // Your Credentials here.
