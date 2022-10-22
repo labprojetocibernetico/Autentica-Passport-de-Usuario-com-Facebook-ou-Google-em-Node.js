@@ -10,7 +10,6 @@ Para evitar tal caos, deve-se incluir logins sociais em seus aplicativos. Por ca
 
 ```bash
 npm install express
-npm install mongoose
 npm install passport 
 npm install passport-facebook
 npm install passport-google-oauth2
