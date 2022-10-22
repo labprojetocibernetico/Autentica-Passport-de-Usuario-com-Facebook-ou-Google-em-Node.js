@@ -17,7 +17,7 @@ npm install passport-facebook
 npm install passport-google-oauth2
 ```
 
-<h3>Configuração</h3>
+<h3>Configurações</h3>
 
 ```bash
 /config/passport.js
