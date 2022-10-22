@@ -16,13 +16,13 @@ npm install passport
 npm install passport-facebook
 npm install passport-google-oauth2
 ```
-<h3>GoogleStrategy</h3>
 
-Vá para:
-
+<h3>Configuração</h3>
 ```bash
 /config/passport.js
 ```
+
+<h3>GoogleStrategy</h3>
 
 ```bash
 passport.use(new GoogleStrategy({
