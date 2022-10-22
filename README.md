@@ -23,12 +23,12 @@ npm install passport-google-oauth2
 /config/passport.js
 ```
 
-<h3>GoogleStrategy</h3>
+<h3>Passport GoogleStrategy</h3>
 
 ```bash
 passport.use(new GoogleStrategy({
-    clientID:"YOUR-GOOGLE-ID-API", // ID do cliente
-    clientSecret:"YOUR-SECRET", //Chave Privada
+    clientID:"YOUR-GOOGLE-ID-API", // ID do cliente da API
+    clientSecret:"YOUR-SECRET", //Chave Secreta da API
     callbackURL:"http://localhost:3000/google/callback",
     passReqToCallback:true
   },
@@ -37,13 +37,13 @@ passport.use(new GoogleStrategy({
   }
 ));
 ``` 
-<h3>FacebookStrategy</h3>
+<h3>Passport FacebookStrategy</h3>
 
 ```bash
 passport.use(new FacebookStrategy(
   {
-    clientID : "YOUR-FACEBOOK-ID-API", // ID do cliente
-    clientSecret : "YOUR-SECRET-API", //Chave Privada
+    clientID : "YOUR-FACEBOOK-ID-API", // ID do cliente da API
+    clientSecret : "YOUR-SECRET-API", //Chave Secreta da API
     callbackURL : "http://localhost:3000/facebook/callback",
     profileFields: ['id', 'emails', 'link', 'locale', 'name',
     'timezone', 'updated_time', 'verified', 'displayName']
