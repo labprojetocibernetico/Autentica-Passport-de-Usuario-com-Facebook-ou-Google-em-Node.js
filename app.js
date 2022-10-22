@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var passport = require('passport');
-var mongoose = require('mongoose');
 var config = require('./config/database.js');
 require("./config/passport");
 var cookieSession = require('cookie-session');
