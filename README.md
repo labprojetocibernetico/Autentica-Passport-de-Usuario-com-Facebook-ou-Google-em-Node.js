@@ -1,4 +1,6 @@
-# Autentica-o-Passport-de-Usuário-com-Facebook-ou-Google-em-Node.js
+# Autenticação-Passport-de-Usuário-com-Facebook-ou-Google-em-Node.js
+
+<center><img src="https://i.ibb.co/M24mKXZ/Untitled-8.png" width="500" height=""473></center>
 
  <h3>Autenticação de usuário por meio do Facebook ou Google</h3> 
 
