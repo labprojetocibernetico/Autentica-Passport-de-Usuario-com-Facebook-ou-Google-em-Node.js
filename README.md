@@ -11,7 +11,6 @@ Para evitar tal caos, deve-se incluir logins sociais em seus aplicativos. Por ca
 <h3>Dependências</h3>
 
 ```bash
-npm install nodemon
 npm install express
 npm install passport 
 npm install passport-facebook
@@ -54,7 +53,7 @@ passport.use(new FacebookStrategy(
 <h3>Para Rodar</h3>
 
 ```bash
-nodemon app.js
+node app.js
 ```
 
 O código está em execução na porta 3000.
